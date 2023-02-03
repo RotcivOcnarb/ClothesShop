@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Long Black
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: 1538764588187430142, guid: 964d181182c791845a52b74c2681f0c6, type: 3}
+  skinAnimator: {fileID: 22100000, guid: c4760931078dab74b95ec5f255600072, type: 2}
+  skinType: 0
+  displayName: Long Black
+  description: 
+  price: 0
+  renderOrder: 10

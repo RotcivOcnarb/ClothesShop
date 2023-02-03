@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Purple Mage Hood
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -646454998339706526, guid: 4eed3037211bb3443ac34e3de9788635, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 1cbe6ff14917f34468fcbcad6a22e065, type: 2}
+  skinType: 1
+  displayName: Purple Mage Hood
+  description: 
+  price: 0
+  renderOrder: 20

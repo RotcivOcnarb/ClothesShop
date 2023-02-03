@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Purple Cape
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -857014450854136766, guid: 1e913613a482683499c89f0cd52eee54, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 647ac0c80a757d64c848394814611ad7, type: 2}
+  skinType: 5
+  displayName: Purple Cape
+  description: 
+  price: 0
+  renderOrder: 30

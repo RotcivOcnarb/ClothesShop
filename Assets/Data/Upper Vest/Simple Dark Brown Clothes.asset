@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Simple Dark Brown Clothes
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -7389100334393394708, guid: 8c2ea8cb8a5681d43a8f04485e1f1e2d, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 2e53ee161e850ea4e86a4925d97531de, type: 2}
+  skinType: 3
+  displayName: Simple Dark Brown Clothes
+  description: 
+  price: 0
+  renderOrder: 20

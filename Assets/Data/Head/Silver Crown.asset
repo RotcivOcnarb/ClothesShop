@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Silver Crown
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -2456007789827792155, guid: 1917ddde3708d4e47910c8447abd8d0c, type: 3}
+  skinAnimator: {fileID: 22100000, guid: f1febec93140e57439c03388eb3fa06c, type: 2}
+  skinType: 1
+  displayName: Silver Crown
+  description: 
+  price: 0
+  renderOrder: 20

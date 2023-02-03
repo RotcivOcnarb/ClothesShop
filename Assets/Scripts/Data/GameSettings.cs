@@ -45,7 +45,7 @@ public class GameSettings : CustomSettingsObject {
         string[] baseAnimations = baseAnimator.animationClips.Select((a) => a.name.Replace("White_", "") + ".anim").Distinct().ToArray();
 
         //Starts to create the animation copy
-        foreach(Texture skinTexture in skinTextures) {
+        foreach (Texture skinTexture in skinTextures) {
             if (skinTexture != null) {
 
                 string folderPath = "Animations/Character/" + skinTexture.name;
@@ -116,7 +116,6 @@ public class GameSettings : CustomSettingsObject {
         Debug.Log("FINISH");
 
     }
-
     public void CreateSpriteSheet(Texture texture) {
         TextureImporter imp = AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(texture)) as TextureImporter;
         imp.spriteImportMode = SpriteImportMode.Multiple;
@@ -137,6 +136,39 @@ public class GameSettings : CustomSettingsObject {
         }
         imp.spritesheet = smd;
         imp.SaveAndReimport();
+    }
+
+    [SettingsButton("Create Skin SOs", "Functions")]
+    public void CreateSkinSOs() {
+
+        string[] allFiles = Directory.GetFiles("Assets/Animations/Character", "*.overrideController", SearchOption.AllDirectories);
+        allFiles = allFiles.Select(f => f.Replace("\\", "/")).ToArray();
+
+        RuntimeAnimatorController[] objects = allFiles.Select(f => AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(f)).ToArray();
+
+        Dictionary<string, RuntimeAnimatorController> allAnimators = new Dictionary<string, RuntimeAnimatorController>();
+        foreach(RuntimeAnimatorController animator in objects) {
+            allAnimators.Add(animator.name, animator);
+        }
+
+        foreach (Texture skinTexture in skinTextures) {
+            Sprite[] sprites = AssetDatabase.LoadAllAssetsAtPath(
+                AssetDatabase.GetAssetPath(skinTexture))
+                .OfType<Sprite>().ToArray();
+            sprites = sprites.OrderBy(s => int.Parse(Regex.Match(s.name, @"([0-9])+").Value)).ToArray();
+
+
+            SkinPiece so = ScriptableObject.CreateInstance(typeof(SkinPiece)) as SkinPiece;
+            so.thumbnailIcon = sprites[1];
+            so.skinAnimator = allAnimators[skinTexture.name];
+            so.displayName = skinTexture.name;
+
+            AssetDatabase.CreateAsset(so, "Assets/Data/" + skinTexture.name + ".asset");
+            Debug.Log("Created asset " + skinTexture.name);
+        }
+
+        AssetDatabase.SaveAssets();
+        Debug.Log("Finish");
     }
 
 #endif

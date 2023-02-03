@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Simple Brown Robe
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -1351376124753078265, guid: 57c1012825b62e446a876eae3362a2b8, type: 3}
+  skinAnimator: {fileID: 22100000, guid: a95e2d44befcfcb42bb4ac7ca916479a, type: 2}
+  skinType: 3
+  displayName: Simple Brown Robe
+  description: 
+  price: 0
+  renderOrder: 20

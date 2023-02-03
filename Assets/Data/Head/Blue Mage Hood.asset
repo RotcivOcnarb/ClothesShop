@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Blue Mage Hood
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: 3822342704814173862, guid: 690b8cf012f5c414d9e0f61fe94d029a, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 7fe1d23e49ce2f54a9420371c8d4159b, type: 2}
+  skinType: 1
+  displayName: Blue Mage Hood
+  description: 
+  price: 0
+  renderOrder: 20

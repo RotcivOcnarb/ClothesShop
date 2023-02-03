@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Elven Simple Clothes
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -8361018597758083784, guid: d2331c7a80276d4448ed1c8904b09d87, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 840b6f80868d5dd4096912203e7c7848, type: 2}
+  skinType: 3
+  displayName: Elven Simple Clothes
+  description: 
+  price: 0
+  renderOrder: 20

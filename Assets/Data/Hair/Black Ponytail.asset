@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Black Ponytail
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -3616669436259376590, guid: d31fc24349ba7b7419de2bdae089734d, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 03008824b4384824d9f64794274364a4, type: 2}
+  skinType: 0
+  displayName: Black Ponytail
+  description: 
+  price: 0
+  renderOrder: 10

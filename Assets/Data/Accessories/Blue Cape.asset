@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Blue Cape
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -7495562789153468475, guid: 57512469d08143a43a00439e2c0c3e92, type: 3}
+  skinAnimator: {fileID: 22100000, guid: abc69113bde52a24d94472c34ee845bc, type: 2}
+  skinType: 5
+  displayName: Blue Cape
+  description: 
+  price: 0
+  renderOrder: 30

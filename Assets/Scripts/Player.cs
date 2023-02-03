@@ -9,15 +9,20 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float acceleration;
     [SerializeField] CharacterSkinRenderer skinRenderer;
+    [SerializeField] PlayerInventory inventory;
 
     //Internal
     private Vector2 direction;
     private float speed;
     private Rigidbody2D body;
-    
 
     private void Awake() {
         body = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start() {
+        inventory.Initialize();
+        skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
     }
 
     public void Move(Vector2 input) {

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CharacterSkinRenderer : MonoBehaviour
@@ -11,9 +12,17 @@ public class CharacterSkinRenderer : MonoBehaviour
 
     private void Start() {
 
+        RefreshSkin();
+    }
+
+    public void RefreshSkin() {
+        for(int i = 0; i < transform.childCount; i++) {
+            Destroy(transform.GetChild(i).gameObject);
+        }
+
         instancedAnimators = new List<Animator>();
 
-        for(int i = 0; i < skins.Length; i++) {
+        for (int i = 0; i < skins.Length; i++) {
 
             GameObject skin = new GameObject(skins[i].name, typeof(SpriteRenderer), typeof(Animator));
             skin.transform.SetParent(transform);
@@ -26,7 +35,6 @@ public class CharacterSkinRenderer : MonoBehaviour
             animator.runtimeAnimatorController = skins[i];
             instancedAnimators.Add(animator);
         }
-
     }
 
 
@@ -34,6 +42,13 @@ public class CharacterSkinRenderer : MonoBehaviour
         foreach(Animator anim in instancedAnimators) {
             callback.Invoke(anim);
         }
+    }
+
+    public void SetSkin(SkinPiece[] pieces) {
+        Array.Sort(pieces, (a, b) => a.renderOrder - b.renderOrder);
+        skins = pieces.Select(p => p.skinAnimator).ToArray();
+
+        RefreshSkin();
     }
 
 }

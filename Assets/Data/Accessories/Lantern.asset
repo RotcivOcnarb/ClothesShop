@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Lantern
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: -2035379156054680241, guid: 328534e093104474882fbafa4902be16, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 21aef19402a0da24f886d7fdf607d6a0, type: 2}
+  skinType: 5
+  displayName: Lantern
+  description: 
+  price: 0
+  renderOrder: 30

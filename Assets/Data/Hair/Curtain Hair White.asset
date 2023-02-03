@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: Curtain Hair White
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: 4959546902951816456, guid: 1ef00acba0fd91e4c942bdaccfc8e35a, type: 3}
+  skinAnimator: {fileID: 22100000, guid: b82fc4dc1e62f664d8e86a43fb4e2bce, type: 2}
+  skinType: 0
+  displayName: Curtain Hair White
+  description: 
+  price: 0
+  renderOrder: 10

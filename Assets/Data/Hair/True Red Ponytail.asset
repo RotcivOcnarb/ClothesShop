@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
+  m_Name: True Red Ponytail
+  m_EditorClassIdentifier: 
+  thumbnailIcon: {fileID: 7930881467217532366, guid: 4c1f0a9df02a4b2419674791a2274ec9, type: 3}
+  skinAnimator: {fileID: 22100000, guid: 4589747fd1ec1f143a7dddbc23783a24, type: 2}
+  skinType: 0
+  displayName: True Red Ponytail
+  description: 
+  price: 0
+  renderOrder: 10
