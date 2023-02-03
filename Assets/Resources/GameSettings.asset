@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6871b0df0a7e6054f96436bdc40ba0d6, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  skinTextures:
+  - {fileID: 2800000, guid: a8facf2f5d038424890c5e18d5aaff24, type: 3}
+  - {fileID: 2800000, guid: 7c0915baf3fb4374196a7e91ea3a2a87, type: 3}
+  - {fileID: 2800000, guid: f6d20036cbfc3b34ea69ac48160af6bc, type: 3}
+  - {fileID: 2800000, guid: bdd41aece35ec4140934039722319628, type: 3}
+  - {fileID: 2800000, guid: 4f084d881a0ce314aa136fbad60be90b, type: 3}
+  - {fileID: 2800000, guid: d2331c7a80276d4448ed1c8904b09d87, type: 3}
+  - {fileID: 2800000, guid: 17cbf9fbaa3dcf3488c6a0ebb8634552, type: 3}
+  - {fileID: 2800000, guid: f9d6a963962a5914abd28a38597b5296, type: 3}
+  - {fileID: 2800000, guid: 84761e14d4adec14da0983f00f29fcc3, type: 3}
+  - {fileID: 2800000, guid: 2dd4f7d78567dd843b63d05603d6c10e, type: 3}
+  - {fileID: 2800000, guid: d8019b38dddfe70418018c1bcfa2f3d4, type: 3}
+  - {fileID: 2800000, guid: f6a125ead6168674faab8f5c53fdec19, type: 3}
+  - {fileID: 2800000, guid: 57c1012825b62e446a876eae3362a2b8, type: 3}
+  - {fileID: 2800000, guid: 8c2ea8cb8a5681d43a8f04485e1f1e2d, type: 3}
+  - {fileID: 2800000, guid: fddabcb6a7835b8489ad779a7477ed45, type: 3}
+  - {fileID: 2800000, guid: 3970e8daf71717e4481f03046632ce22, type: 3}
+  - {fileID: 2800000, guid: 2f79b4cdf414f2244b8b15666bd8c999, type: 3}

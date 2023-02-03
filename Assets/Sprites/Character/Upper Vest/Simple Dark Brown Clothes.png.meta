@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 8c2ea8cb8a5681d43a8f04485e1f1e2d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2200343221756926831
+    second: Simple Dark Brown Clothes_0
+  - first:
+      213: -7389100334393394708
+    second: Simple Dark Brown Clothes_1
+  - first:
+      213: -7658510380181319134
+    second: Simple Dark Brown Clothes_2
+  - first:
+      213: -5580158620521819136
+    second: Simple Dark Brown Clothes_3
+  - first:
+      213: -870022652380268159
+    second: Simple Dark Brown Clothes_4
+  - first:
+      213: 1181373938650196413
+    second: Simple Dark Brown Clothes_5
+  - first:
+      213: 5910021695287702976
+    second: Simple Dark Brown Clothes_6
+  - first:
+      213: -435568070093030237
+    second: Simple Dark Brown Clothes_7
+  - first:
+      213: -811126140383044699
+    second: Simple Dark Brown Clothes_8
+  - first:
+      213: -8916298434441504989
+    second: Simple Dark Brown Clothes_9
+  - first:
+      213: 2689867111813524012
+    second: Simple Dark Brown Clothes_10
+  - first:
+      213: -3537050205645881608
+    second: Simple Dark Brown Clothes_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -42,7 +78,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -114,7 +150,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1946d3b6f7fc671e0800000000000000
+      internalID: -2200343221756926831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f2ce1564a47990800000000000000
+      internalID: -7389100334393394708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22296a0c26187b590800000000000000
+      internalID: -7658510380181319134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0049671bc4b4f82b0800000000000000
+      internalID: -5580158620521819136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189b45ad10f0de3f0800000000000000
+      internalID: -870022652380268159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db926288655156010800000000000000
+      internalID: 1181373938650196413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b9725b6d940250800000000000000
+      internalID: 5910021695287702976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac3a92e52d84f9f0800000000000000
+      internalID: -435568070093030237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab5f66a21d4eb4f0800000000000000
+      internalID: -811126140383044699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3271ebf70d1f24480800000000000000
+      internalID: -8916298434441504989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aa6acf2e3545520800000000000000
+      internalID: 2689867111813524012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Dark Brown Clothes_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe31cbf39fd9eec0800000000000000
+      internalID: -3537050205645881608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -125,7 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Simple Dark Brown Clothes_6: 5910021695287702976
+      Simple Dark Brown Clothes_3: -5580158620521819136
+      Simple Dark Brown Clothes_2: -7658510380181319134
+      Simple Dark Brown Clothes_10: 2689867111813524012
+      Simple Dark Brown Clothes_1: -7389100334393394708
+      Simple Dark Brown Clothes_11: -3537050205645881608
+      Simple Dark Brown Clothes_4: -870022652380268159
+      Simple Dark Brown Clothes_5: 1181373938650196413
+      Simple Dark Brown Clothes_0: -2200343221756926831
+      Simple Dark Brown Clothes_7: -435568070093030237
+      Simple Dark Brown Clothes_8: -811126140383044699
+      Simple Dark Brown Clothes_9: -8916298434441504989
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

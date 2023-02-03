@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rusted Plate Pants
+  m_Controller: {fileID: 9100000, guid: f6b644818a920204da51b46a93e01887, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 359f7381425b4414590654c91d79301f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c87ca33b2eb67d245b52664f5a7d02f7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 187dc897468d05b46b17f351499c1169, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d18f090eb30e53a4b857700a94143d12, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6fcca95b2ffcaa4459cf33f21839e98b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7e5de923a41f8e2468684766482ec226, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d23aa614bb0de3e428e80dd33e78a138, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 66db4934d33f9e245a032b71c52b0815, type: 2}

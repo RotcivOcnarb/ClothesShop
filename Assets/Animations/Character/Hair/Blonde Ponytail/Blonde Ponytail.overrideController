@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blonde Ponytail
+  m_Controller: {fileID: 9100000, guid: f6b644818a920204da51b46a93e01887, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 359f7381425b4414590654c91d79301f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fb82d685a94724545aeb75969ae243c7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 187dc897468d05b46b17f351499c1169, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 856b53de60a2798468c3895f8b18ef6b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6fcca95b2ffcaa4459cf33f21839e98b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4876e4544a067554ea772ecfd61e660b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d23aa614bb0de3e428e80dd33e78a138, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2b6366740f9032e4db84981cd8dcaab5, type: 2}
