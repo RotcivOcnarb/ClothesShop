@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -8321186339907112345, guid: 50abde80432d08d44bde44341aa9e02a, type: 3}
   skinAnimator: {fileID: 22100000, guid: c8edd3646c5495a4193e201cb2130ac5, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Blonde Ponytail
   description: 
   price: 0

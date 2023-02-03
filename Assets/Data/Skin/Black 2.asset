@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be1741f283ea28498008107bfd08b2b, type: 3}
   m_Name: Black 2
   m_EditorClassIdentifier: 
-  thumbnailIcon: {fileID: 399672516741516634, guid: 737b03aa0b722984bb54aa581618ab81, type: 3}
+  thumbnailIcon: {fileID: 6892346426604348765, guid: 737b03aa0b722984bb54aa581618ab81, type: 3}
   skinAnimator: {fileID: 22100000, guid: 388ce814b0802ef4fa3172ba6b608130, type: 2}
-  skinType: 2
+  skinType: 0
   displayName: Black 2
   description: 
   price: 0
+  renderOrder: 0

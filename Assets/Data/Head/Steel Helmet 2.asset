@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 7351487826233628577, guid: 2aa340a37a7748649960cef4ce577b8a, type: 3}
   skinAnimator: {fileID: 22100000, guid: 06c6e392f3347ad458ee23ab8da5597c, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Steel Helmet 2
   description: 
   price: 0
   renderOrder: 20
+  asSpriteMask: 1

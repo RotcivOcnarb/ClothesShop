@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -1981557531727371798, guid: 970b872b42efc0a40aa97cce76d3acc1, type: 3}
   skinAnimator: {fileID: 22100000, guid: 4fdfa59eeb709664eba238349cb553ef, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Light Gray Ponytail
   description: 
   price: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -5586343047952945958, guid: 0dda739879411b74398688610d42dbec, type: 3}
   skinAnimator: {fileID: 22100000, guid: e5ec90de2b08ebd4ca851aab7fa1c0bf, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Steel Diadem
   description: 
   price: 0

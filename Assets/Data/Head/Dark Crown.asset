@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 2754536645512548071, guid: 2b2761a152be1e14ebae760f90047789, type: 3}
   skinAnimator: {fileID: 22100000, guid: c8fa765035579ce4d9ef82978f98a697, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Dark Crown
   description: 
   price: 0

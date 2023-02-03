@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 5582127302053206389, guid: 049e5d8ac757c1a4297deece81300e91, type: 3}
   skinAnimator: {fileID: 22100000, guid: 1bff1f641ac273a4dbcda101a84f7c43, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Black Spiked Hair
   description: 
   price: 0

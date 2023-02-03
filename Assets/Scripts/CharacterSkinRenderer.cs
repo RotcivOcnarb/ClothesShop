@@ -6,9 +6,15 @@ using UnityEngine;
 
 public class CharacterSkinRenderer : MonoBehaviour
 {
-    [SerializeField] RuntimeAnimatorController[] skins;
+    [SerializeField] SkinPiece[] skins;
 
-    private List<Animator> instancedAnimators;
+    private Dictionary<SkinPiece, SkinObject> instancedSkins;
+
+    struct SkinObject {
+        public SpriteRenderer renderer;
+        public SpriteMask mask;
+        public Animator animator;
+    }
 
     private void Start() {
 
@@ -20,7 +26,7 @@ public class CharacterSkinRenderer : MonoBehaviour
             Destroy(transform.GetChild(i).gameObject);
         }
 
-        instancedAnimators = new List<Animator>();
+        instancedSkins = new Dictionary<SkinPiece, SkinObject>();
 
         for (int i = 0; i < skins.Length; i++) {
 
@@ -32,21 +38,50 @@ public class CharacterSkinRenderer : MonoBehaviour
             spriteRenderer.sortingOrder = i + 1;
 
             Animator animator = skin.GetComponent<Animator>();
-            animator.runtimeAnimatorController = skins[i];
-            instancedAnimators.Add(animator);
+            animator.runtimeAnimatorController = skins[i].skinAnimator;
+
+            SkinObject so = new SkinObject() {
+                animator = animator,
+                renderer = spriteRenderer
+            };
+
+            if (skins[i].asSpriteMask) {
+                so.mask = skin.AddComponent<SpriteMask>();
+            }
+
+            instancedSkins.Add(skins[i], so);
+
+        }
+    }
+
+    private void Update() {
+        foreach (SkinPiece sp in instancedSkins.Keys) {
+            if (instancedSkins[sp].mask != null) {
+                //Sync mask sprite to animation
+                instancedSkins[sp].mask.sprite = instancedSkins[sp].renderer.sprite;
+            }
+            if(sp.skinType == SkinPiece.SkinType.Hair) {
+                //Check if there is any mask object
+                if(instancedSkins.Values.Where(s => s.mask != null).Count() > 0) {
+                    instancedSkins[sp].renderer.maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
+                }
+                else {
+                    instancedSkins[sp].renderer.maskInteraction = SpriteMaskInteraction.None;
+                }
+            }
         }
     }
 
 
     public void ApplyToAllAnimations(Action<Animator> callback) {
-        foreach(Animator anim in instancedAnimators) {
-            callback.Invoke(anim);
+        foreach(SkinPiece sp in instancedSkins.Keys) {
+            callback.Invoke(instancedSkins[sp].animator);
         }
     }
 
     public void SetSkin(SkinPiece[] pieces) {
         Array.Sort(pieces, (a, b) => a.renderOrder - b.renderOrder);
-        skins = pieces.Select(p => p.skinAnimator).ToArray();
+        skins = pieces;
 
         RefreshSkin();
     }

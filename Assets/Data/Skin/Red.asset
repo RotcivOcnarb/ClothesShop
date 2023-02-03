@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 1613127925512473047, guid: 204a5fa718a7e9b4886989168d7e31f6, type: 3}
   skinAnimator: {fileID: 22100000, guid: f87cf8ffe3dbd9447b5e77b6441f9912, type: 2}
-  skinType: 2
+  skinType: 0
   displayName: Red
   description: 
   price: 0
+  renderOrder: 0

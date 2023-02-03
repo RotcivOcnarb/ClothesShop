@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -7628875965775042747, guid: 3a6631f98b1983f47bacd538fb0d033a, type: 3}
   skinAnimator: {fileID: 22100000, guid: 9f5752a4e8ecd544e9a958e637cc0970, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Curtain Hair Blonde
   description: 
   price: 0

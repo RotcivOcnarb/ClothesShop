@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -5027705000881086143, guid: 4f9383132d0b1a54ebf9158a6cf0eb59, type: 3}
   skinAnimator: {fileID: 22100000, guid: 47f67db90758d2e4c891d3bebac514f8, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Short Blonde
   description: 
   price: 0

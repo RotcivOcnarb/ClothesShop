@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -2456007789827792155, guid: 1917ddde3708d4e47910c8447abd8d0c, type: 3}
   skinAnimator: {fileID: 22100000, guid: f1febec93140e57439c03388eb3fa06c, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Silver Crown
   description: 
   price: 0

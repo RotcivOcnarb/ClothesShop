@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -646454998339706526, guid: 4eed3037211bb3443ac34e3de9788635, type: 3}
   skinAnimator: {fileID: 22100000, guid: 1cbe6ff14917f34468fcbcad6a22e065, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Purple Mage Hood
   description: 
   price: 0
   renderOrder: 20
+  asSpriteMask: 1

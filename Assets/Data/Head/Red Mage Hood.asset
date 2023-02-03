@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 2631670841794586174, guid: 9aecee3a04b84d848b64ae94da5f0f89, type: 3}
   skinAnimator: {fileID: 22100000, guid: 9e6ac26f8b1bdde46aa1889462f515a0, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Red Mage Hood
   description: 
   price: 0
   renderOrder: 20
+  asSpriteMask: 1

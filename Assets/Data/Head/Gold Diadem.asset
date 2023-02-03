@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 6047406842353980087, guid: 4d137fbf52f854a4db1fd55d89a1e911, type: 3}
   skinAnimator: {fileID: 22100000, guid: 87fc17b3eeb8b1542ad24755d5c6cd5d, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Gold Diadem
   description: 
   price: 0

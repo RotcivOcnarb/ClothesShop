@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 5737186077698659123, guid: de8ea99d72a0f0b459059e2ebdcc7f8a, type: 3}
   skinAnimator: {fileID: 22100000, guid: a70f335b7bd12514aac30a14c20413d4, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Messy Long Black Hair
   description: 
   price: 0

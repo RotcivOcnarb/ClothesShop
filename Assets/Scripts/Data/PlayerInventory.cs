@@ -28,11 +28,17 @@ public class PlayerInventory
         }
         
         foreach(SkinPiece sp in inventory) {
+            if (sp.skinType == SkinPiece.SkinType.Head) continue;
+            if (sp.skinType == SkinPiece.SkinType.Accessory) continue;
             if(equippedClothes[sp.skinType.ToString()].Count == 0) {
                 equippedClothes[sp.skinType.ToString()].Add(sp);
             }
         }
 
+    }
+
+    public List<SkinPiece> GetInventory() {
+        return inventory;
     }
 
     public void EquipPiece(SkinPiece piece) {
@@ -51,6 +57,7 @@ public class PlayerInventory
     }
 
     public SkinPiece[] GetEquippedPiece(SkinPiece.SkinType skinType) {
+        if (equippedClothes == null) return new SkinPiece[0];
         if (!equippedClothes.ContainsKey(skinType.ToString())) return new SkinPiece[0];
         return equippedClothes[skinType.ToString()].ToArray();
     }

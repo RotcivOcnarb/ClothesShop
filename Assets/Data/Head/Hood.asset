@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -577388042402699480, guid: 40e456f948976664bab5b73990417fe3, type: 3}
   skinAnimator: {fileID: 22100000, guid: 613065671cb975d4f8593229aa997917, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Hood
   description: 
   price: 0
   renderOrder: 20
+  asSpriteMask: 1

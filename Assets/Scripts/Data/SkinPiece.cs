@@ -4,9 +4,9 @@ using UnityEngine;
 public class SkinPiece : ScriptableObject {
 
     public enum SkinType {
+        Skin,
         Hair,
         Head,
-        Skin,
         Upper,
         Lower,
         Accessory
@@ -20,5 +20,6 @@ public class SkinPiece : ScriptableObject {
     public string description;
     public int price;
     public int renderOrder;
+    public bool asSpriteMask;
 
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 3334463042634573815, guid: 45b6a368c7a814b4f932fa7f72ebaad8, type: 3}
   skinAnimator: {fileID: 22100000, guid: 165d378c522607b46998ace83fe0637a, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Short Brown
   description: 
   price: 0

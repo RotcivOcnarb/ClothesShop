@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -4334750915253311884, guid: edf0874ee0b5e1841b76e17b312e68af, type: 3}
   skinAnimator: {fileID: 22100000, guid: 9c8394eec116b234f820e71bfbfdc722, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Curtain Hair Red
   description: 
   price: 0

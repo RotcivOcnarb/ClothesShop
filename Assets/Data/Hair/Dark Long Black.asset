@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -4574377830373911112, guid: c97fe5983179a3d45bb798cc976d655f, type: 3}
   skinAnimator: {fileID: 22100000, guid: 9023f5b2b78fb3a45a7e52441b31d668, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Dark Long Black
   description: 
   price: 0

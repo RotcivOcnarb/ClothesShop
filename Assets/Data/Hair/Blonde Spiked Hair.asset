@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 4380864509894989128, guid: b8e1bce45f8fb144e9790f666eed48f6, type: 3}
   skinAnimator: {fileID: 22100000, guid: 9283d0c8d40751b4b9720d78a8799fbb, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Blonde Spiked Hair
   description: 
   price: 0

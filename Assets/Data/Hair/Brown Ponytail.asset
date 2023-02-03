@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -1621414335445309615, guid: 4f2ab1330a91cef40973808ba6a16906, type: 3}
   skinAnimator: {fileID: 22100000, guid: 7ff1dfdab570fbc4c8266220c7ec1c20, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Brown Ponytail
   description: 
   price: 0

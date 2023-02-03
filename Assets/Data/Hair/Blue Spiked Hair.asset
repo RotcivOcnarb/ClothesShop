@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 3992423714978306831, guid: eef8325255b7f224cb3a9cccd33e2066, type: 3}
   skinAnimator: {fileID: 22100000, guid: 7c099a4cdcee2964eaea070148d2344e, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Blue Spiked Hair
   description: 
   price: 0

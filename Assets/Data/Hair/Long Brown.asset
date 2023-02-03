@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 5964019280883054182, guid: 1fd75a4b74eef1c4793ca7640c6a9613, type: 3}
   skinAnimator: {fileID: 22100000, guid: 2686f664bb32d6c419d9a235f257a116, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Long Brown
   description: 
   price: 0

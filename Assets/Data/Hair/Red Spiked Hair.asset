@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -8256107944575841473, guid: 22eedce64f1f9a447818dbb533a69974, type: 3}
   skinAnimator: {fileID: 22100000, guid: 351107b14629e1e439cf8b0cba1595e7, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Red Spiked Hair
   description: 
   price: 0

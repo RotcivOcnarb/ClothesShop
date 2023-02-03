@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 4959546902951816456, guid: 1ef00acba0fd91e4c942bdaccfc8e35a, type: 3}
   skinAnimator: {fileID: 22100000, guid: b82fc4dc1e62f664d8e86a43fb4e2bce, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Curtain Hair White
   description: 
   price: 0

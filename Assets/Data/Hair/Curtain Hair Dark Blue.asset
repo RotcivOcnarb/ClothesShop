@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 6401073658664883924, guid: 40b897b9e0c8c474180d70b0154f1552, type: 3}
   skinAnimator: {fileID: 22100000, guid: 3e5783cb868e41940a5e8092bcc11a9c, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Curtain Hair Dark Blue
   description: 
   price: 0

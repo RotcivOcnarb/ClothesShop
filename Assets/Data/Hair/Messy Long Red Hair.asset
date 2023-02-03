@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 2237932459040735705, guid: 21f3499cae10e344fa726bcf675be996, type: 3}
   skinAnimator: {fileID: 22100000, guid: d2db65f2f40ba4f4280bec41aa231a7d, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Messy Long Red Hair
   description: 
   price: 0

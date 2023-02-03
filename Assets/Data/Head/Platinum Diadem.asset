@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -5869242741589623491, guid: ede2d5ed26a1f7449aac81963b2e660b, type: 3}
   skinAnimator: {fileID: 22100000, guid: 8dceb9fb9e4e539498e30c57703a3f95, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Platinum Diadem
   description: 
   price: 0

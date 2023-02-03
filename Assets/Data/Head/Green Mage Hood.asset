@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -1468787148953151985, guid: 41d95d61ae6cd6a4bbcfbc3316994032, type: 3}
   skinAnimator: {fileID: 22100000, guid: 97ab7761076edaa41bbc17703791578d, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Green Mage Hood
   description: 
   price: 0
   renderOrder: 20
+  asSpriteMask: 1

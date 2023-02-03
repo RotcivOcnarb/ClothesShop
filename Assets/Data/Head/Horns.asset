@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 2201491981743305698, guid: 7ccf268cd68840340ba08118a476743f, type: 3}
   skinAnimator: {fileID: 22100000, guid: 39c5910c636081647ac3da49da6396d6, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Horns
   description: 
   price: 0

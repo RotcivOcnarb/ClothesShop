@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 5648628953000839739, guid: d75de5aece3cbe34f876ba7fc5a3349d, type: 3}
   skinAnimator: {fileID: 22100000, guid: e255336ce5b3bf642bda0e6f9ac5427a, type: 2}
-  skinType: 2
+  skinType: 0
   displayName: Green Moss
   description: 
   price: 0
+  renderOrder: 0

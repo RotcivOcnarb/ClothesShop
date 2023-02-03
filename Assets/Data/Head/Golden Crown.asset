@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 7678128359829296620, guid: 1693d526d333d5f4ea332d35e360a6f0, type: 3}
   skinAnimator: {fileID: 22100000, guid: 4c74c3b856c7f374c95789416f363a43, type: 2}
-  skinType: 1
+  skinType: 2
   displayName: Golden Crown
   description: 
   price: 0

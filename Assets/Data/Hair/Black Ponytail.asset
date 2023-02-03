@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: -3616669436259376590, guid: d31fc24349ba7b7419de2bdae089734d, type: 3}
   skinAnimator: {fileID: 22100000, guid: 03008824b4384824d9f64794274364a4, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: Black Ponytail
   description: 
   price: 0

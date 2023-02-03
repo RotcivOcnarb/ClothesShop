@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thumbnailIcon: {fileID: 7930881467217532366, guid: 4c1f0a9df02a4b2419674791a2274ec9, type: 3}
   skinAnimator: {fileID: 22100000, guid: 4589747fd1ec1f143a7dddbc23783a24, type: 2}
-  skinType: 0
+  skinType: 1
   displayName: True Red Ponytail
   description: 
   price: 0

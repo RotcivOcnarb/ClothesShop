@@ -7,7 +7,16 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] Player player;
 
     public void ActionMove(InputAction.CallbackContext context) {
+        if (!enabled) return;
+
         Vector2 input = context.ReadValue<Vector2>();
         player.Move(input);
+    }
+
+    public void ActionInteract(InputAction.CallbackContext context) {
+        if (!enabled) return;
+        if (context.performed) {
+            player.Interact();
+        }
     }
 }
