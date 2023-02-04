@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float acceleration;
     [SerializeField] CharacterSkinRenderer skinRenderer;
     [SerializeField] PlayerInventory inventory;
+    [SerializeField] CharacterSkinRenderer mirrorSkin;
 
     //Internal
     private Vector2 direction;
@@ -48,6 +49,14 @@ public class Player : MonoBehaviour {
         speed = 0;
     }
 
+    public void SetSkin(SkinPiece[] skin) {
+        foreach(SkinPiece sp in skin) {
+            inventory.EquipPiece(sp);
+        }
+        skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
+        mirrorSkin.SetSkin(inventory.GetFullEquippedAttire());
+    }
+
     public float GetSpeed() {
         return speed;
     }
@@ -63,11 +72,13 @@ public class Player : MonoBehaviour {
     public void EquipPiece(SkinPiece piece) {
         inventory.EquipPiece(piece);
         skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
+        mirrorSkin.SetSkin(inventory.GetFullEquippedAttire());
     }
 
     public void UnequipPiece(SkinPiece piece) {
         inventory.UnequipPiece(piece);
         skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
+        mirrorSkin.SetSkin(inventory.GetFullEquippedAttire());
     }
 
     public void Move(Vector2 input) {

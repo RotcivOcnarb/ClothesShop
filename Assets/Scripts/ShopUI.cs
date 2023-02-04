@@ -10,6 +10,7 @@ using UnityEngine.UI;
 
 public class ShopUI : PopupWindow
 {
+    [SerializeField] bool keepsSkinAfterClose;
     [SerializeField] SkinPiece.SkinType[] sellTypes;
     [SerializeField] Transform[] panelParents;
     [SerializeField] Toggle[] tabToggles;
@@ -60,6 +61,12 @@ public class ShopUI : PopupWindow
             }
             instancedSlots.Add(slots);
         }
+
+        OnClose += (s, a) => {
+            if (keepsSkinAfterClose) {
+                Player.Instance.SetSkin(previewInventory.GetFullEquippedAttire());
+            }
+        };
     }
 
     private void Update() {
@@ -121,5 +128,7 @@ public class ShopUI : PopupWindow
             Player.Instance.GetInventory().AddToInventory(selectedInfo);
         }
     }
+
+    
 
 }

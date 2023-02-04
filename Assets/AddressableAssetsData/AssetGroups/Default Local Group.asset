@@ -32,6 +32,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - popups
+  - m_GUID: 5e438f0a1a2900a40bad624eebda1ca5
+    m_Address: Barber Shop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - popups
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7dbfd8877b563ca4688e54f5d72adfea, type: 2}
   m_SchemaSet:

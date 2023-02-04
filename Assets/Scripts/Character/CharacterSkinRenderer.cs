@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CharacterSkinRenderer : MonoBehaviour
 {
+    [SerializeField] Vector2 defaultDirection = Vector2.down;
     [SerializeField] SkinPiece[] skins;
 
     private Dictionary<SkinPiece, SkinObject> instancedSkins;
@@ -19,6 +20,10 @@ public class CharacterSkinRenderer : MonoBehaviour
     private void Start() {
 
         RefreshSkin();
+        ApplyToAllAnimations(anim => {
+            anim.SetFloat("DirectionX", defaultDirection.x);
+            anim.SetFloat("DirectionY", defaultDirection.y);
+        });
     }
 
     public SkinPiece[] GetSkin() {
@@ -35,7 +40,7 @@ public class CharacterSkinRenderer : MonoBehaviour
         for (int i = 0; i < skins.Length; i++) {
 
             GameObject skin = new GameObject(skins[i].name, typeof(SpriteRenderer), typeof(Animator));
-            skin.transform.SetParent(transform);
+            skin.transform.SetParent(transform, false);
             skin.transform.localPosition = Vector3.zero;
             skin.layer = gameObject.layer;
 

@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 1
   displayName: Curtain Hair Dark Blue
   description: 
-  price: 0
+  price: 100
   renderOrder: 10
+  asSpriteMask: 0

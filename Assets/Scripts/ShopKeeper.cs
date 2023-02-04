@@ -2,6 +2,7 @@ using RotsLib.Popup;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.InputSystem;
 
 public class ShopKeeper : MonoBehaviour
@@ -10,6 +11,7 @@ public class ShopKeeper : MonoBehaviour
     [SerializeField] PlayerInput playerInput;
     [SerializeField] Cinemachine.CinemachineVirtualCamera shopCam;
     [SerializeField] CharacterSkinRenderer skinPreview;
+    [SerializeField] AssetReference shopUI;
 
     public void OpenDialog() {
         playerInput.enabled = false;
@@ -19,7 +21,7 @@ public class ShopKeeper : MonoBehaviour
             dp.OnClose += (sender, args) => {
                 shopCam.Priority = 15;
                 skinPreview.gameObject.SetActive(true);
-                PopupManager.Instance.OpenPopup("Shop UI", 50, popup => {
+                PopupManager.Instance.OpenPopup(shopUI, 50, popup => {
                     ShopUI ui = popup as ShopUI;
                     ui.skinRenderer = skinPreview;
                     ui.OnClose += (s, a) => CloseDialog();

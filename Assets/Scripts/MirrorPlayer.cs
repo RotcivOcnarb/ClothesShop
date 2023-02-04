@@ -20,8 +20,7 @@ public class MirrorPlayer : MonoBehaviour
         transform.position = playerPosition;
 
         float speed = Player.Instance.GetSpeed();
-        Vector2 direction = Player.Instance.GetDirection();
-        direction.y *= -1;
+        Vector2 direction = -Player.Instance.GetDirection();
 
         skinRenderer.ApplyToAllAnimations((animator) => {
             animator.SetFloat("DirectionX", direction.x);

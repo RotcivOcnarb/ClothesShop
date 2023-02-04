@@ -7,8 +7,6 @@ public class Wardrobe : MonoBehaviour {
 
     [SerializeField] PlayerInput playerInput;
     [SerializeField] CinemachineVirtualCamera wardrobeCam;
-    [SerializeField] CharacterSkinRenderer mirrorSkin;
-
 
     public void OpenWardrobe() {
         PopupManager.Instance.OpenPopup("Wardrobe Window", 50, popup => {
@@ -23,6 +21,5 @@ public class Wardrobe : MonoBehaviour {
     public void CloseWardrobe() {
         playerInput.enabled = true;
         wardrobeCam.Priority = 0;
-        mirrorSkin.SetSkin(Player.Instance.GetInventory().GetFullEquippedAttire());
     }
 }
