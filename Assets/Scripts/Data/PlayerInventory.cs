@@ -72,7 +72,7 @@ public class PlayerInventory
     public void UnequipPiece(SkinPiece piece) {
         string skinType = piece.skinType.ToString();
         if (!equippedClothes[skinType].Contains(piece)) return;
-        if (equippedMaxAmount[skinType] == 1) return;
+        if (piece.skinType == SkinPiece.SkinType.Skin) return;
 
         equippedClothes[skinType].Remove(piece);
     }

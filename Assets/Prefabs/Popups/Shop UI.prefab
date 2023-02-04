@@ -4378,6 +4378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blurRenderer: {fileID: 0}
+  keepsSkinAfterClose: 0
   sellTypes: 02000000030000000400000005000000
   panelParents:
   - {fileID: 2026563464614431687}

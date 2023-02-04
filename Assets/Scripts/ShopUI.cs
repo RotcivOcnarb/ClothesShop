@@ -85,12 +85,12 @@ public class ShopUI : PopupWindow
             infoTitle.text = selectedInfo.displayName;
             infoDescription.text = selectedInfo.description;
             if (Player.Instance.GetInventory().GetInventory().Contains(selectedInfo)) {
-                infoPrice.text = string.Format("Owned");
-                infoPurchaseButton.interactable = false;
+                infoPrice.text = string.Format("Sell for <sprite=74> {0}", selectedInfo.price);
+                infoPurchaseButton.interactable = true;
             }
             else {
                 infoPrice.text = string.Format("<sprite=74> {0}", selectedInfo.price);
-                infoPurchaseButton.interactable = true; //Dps tenho q calcular moeda
+                infoPurchaseButton.interactable = Player.Instance.GetCoins() >= selectedInfo.price; //Dps tenho q calcular moeda
             }
         }
     }
@@ -124,8 +124,21 @@ public class ShopUI : PopupWindow
 
     public void PurchaseSelected() {
         if (selectedInfo == null) return;
-        if (Player.Instance.SpendCoins(selectedInfo.price)) {
-            Player.Instance.GetInventory().AddToInventory(selectedInfo);
+
+        if (!Player.Instance.GetInventory().GetInventory().Contains(selectedInfo)) {
+            //Purchasing
+            if (Player.Instance.SpendCoins(selectedInfo.price)) {
+                Player.Instance.GetInventory().AddToInventory(selectedInfo);
+            }
+        }
+        else {
+            //Selling
+            Player.Instance.AddCoins(selectedInfo.price);
+            Player.Instance.GetInventory().RemoveFromInventory(selectedInfo);
+            //If it was currently equipped, unequip it
+            if (Player.Instance.GetInventory().GetFullEquippedAttire().Contains(selectedInfo)) {
+                Player.Instance.UnequipPiece(selectedInfo);
+            }
         }
     }
 

@@ -42,6 +42,10 @@ public class Player : MonoBehaviour {
         return false;
     }
 
+    public void AddCoins(int amount) {
+        coins += amount;
+    }
+
     public void PlaceForward() {
         direction = Vector2.down;
         speed = 1;
