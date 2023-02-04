@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Red Scarf
   description: 
-  price: 0
+  price: 230
   renderOrder: 30
+  asSpriteMask: 0

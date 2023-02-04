@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Simple Brown Robe
   description: 
-  price: 0
+  price: 70
   renderOrder: 20
+  asSpriteMask: 0

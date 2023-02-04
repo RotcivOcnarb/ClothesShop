@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
     private float speed;
     private Rigidbody2D body;
     private List<Interactable> interactablesInRange;
+    private int coins = 1000;
 
     private void Awake() {
         Instance = this;
@@ -28,11 +29,31 @@ public class Player : MonoBehaviour {
         interactablesInRange = new List<Interactable>();
     }
 
+    public int GetCoins() {
+        return coins;
+    }
+
+    public bool SpendCoins(int amount) {
+        if (coins >= amount) {
+            coins -= amount;
+            return true;
+        }
+        return false;
+    }
+
     public void PlaceForward() {
         direction = Vector2.down;
         speed = 1;
         Update();
         speed = 0;
+    }
+
+    public float GetSpeed() {
+        return speed;
+    }
+
+    public Vector2 GetDirection() {
+        return direction;
     }
 
     public PlayerInventory GetInventory() {
@@ -41,6 +62,11 @@ public class Player : MonoBehaviour {
 
     public void EquipPiece(SkinPiece piece) {
         inventory.EquipPiece(piece);
+        skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
+    }
+
+    public void UnequipPiece(SkinPiece piece) {
+        inventory.UnequipPiece(piece);
         skinRenderer.SetSkin(inventory.GetFullEquippedAttire());
     }
 
@@ -53,10 +79,8 @@ public class Player : MonoBehaviour {
 
     private void Update() {
         skinRenderer.ApplyToAllAnimations((animator) => {
-            if (speed > 0) {
-                animator.SetFloat("DirectionX", direction.x * speed);
-                animator.SetFloat("DirectionY", direction.y * speed);
-            }
+            animator.SetFloat("DirectionX", direction.x);
+            animator.SetFloat("DirectionY", direction.y);
             animator.SetBool("Walking", speed > 0);
         });
     }

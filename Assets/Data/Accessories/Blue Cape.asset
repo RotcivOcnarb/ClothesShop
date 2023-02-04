@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Blue Cape
   description: 
-  price: 0
+  price: 250
   renderOrder: 30
+  asSpriteMask: 0

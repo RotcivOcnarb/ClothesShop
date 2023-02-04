@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Golden Crown
   description: 
-  price: 0
+  price: 230
   renderOrder: 20
+  asSpriteMask: 0

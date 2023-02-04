@@ -56,16 +56,28 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UI\TabController.cs" />
+    <Compile Include="Assets\Scripts\UI\WardrobeUI.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Data\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Data\SkinPiece.cs" />
+    <Compile Include="Assets\Scripts\UI\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Data\PlayerInventory.cs" />
-    <Compile Include="Assets\Interactable.cs" />
-    <Compile Include="Assets\Scripts\CharacterSkinRenderer.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\WardrobeUI.cs" />
-    <Compile Include="Assets\InventorySlot.cs" />
-    <Compile Include="Assets\TabController.cs" />
+    <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterSkinRenderer.cs" />
+    <Compile Include="Assets\Scripts\Character\Player.cs" />
+    <Compile Include="Assets\GameLoad.cs" />
+    <Compile Include="Assets\Wardrobe.cs" />
+    <Compile Include="Assets\TextMarkupParser\TextMarkupParser.cs" />
+    <Compile Include="Assets\TextMarkupParser\Sample\SingleLetter.cs" />
+    <Compile Include="Assets\TextMarkupParser\Sample\SampleText.cs" />
+    <Compile Include="Assets\Scripts\UI\DialogPopup.cs" />
+    <Compile Include="Assets\Scripts\Data\DialogObject.cs" />
+    <Compile Include="Assets\ShopKeeper.cs" />
+    <Compile Include="Assets\ShopUI.cs" />
+    <Compile Include="Assets\ShopSlot.cs" />
+    <Compile Include="Assets\MirrorPlayer.cs" />
+    <Compile Include="Assets\MirrorCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

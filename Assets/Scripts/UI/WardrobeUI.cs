@@ -1,20 +1,16 @@
+using RotsLib.Popup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class WardrobeUI : MonoBehaviour {
+public class WardrobeUI : PopupWindow {
 
     [SerializeField] Transform[] panelParents;
     [SerializeField] GameObject inventorySlotPrefab;
-
-    Animator animator;
+    public Wardrobe wardrobe;
 
     List<Dictionary<SkinPiece, InventorySlot>> instancedSlots;
-
-    private void Awake() {
-        animator = GetComponent<Animator>();
-    }
 
     private void Start() {
         instancedSlots = new List<Dictionary<SkinPiece, InventorySlot>>();
@@ -43,11 +39,8 @@ public class WardrobeUI : MonoBehaviour {
         }
     }
 
-    public void Open() {
-        animator.SetBool("Open", true);
-    }
-
-    public void Close() {
-        animator.SetBool("Open", false);
+    public void CloseWardrobe() {
+        wardrobe.CloseWardrobe();
+        ClosePopup();
     }
 }

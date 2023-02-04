@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Shield in the Back
   description: 
-  price: 0
+  price: 100
   renderOrder: 30
+  asSpriteMask: 0

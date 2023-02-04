@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Rusted Breastplate
   description: 
-  price: 0
+  price: 110
   renderOrder: 20
+  asSpriteMask: 0

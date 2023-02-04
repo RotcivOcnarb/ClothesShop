@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Green Noble Cloth
   description: 
-  price: 0
+  price: 170
   renderOrder: 20
+  asSpriteMask: 0

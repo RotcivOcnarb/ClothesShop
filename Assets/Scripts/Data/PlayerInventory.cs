@@ -37,6 +37,19 @@ public class PlayerInventory
 
     }
 
+    public void AddToInventory(params SkinPiece[] skin) {
+        inventory.AddRange(skin);
+        inventory = inventory.Distinct().ToList();
+    }
+
+    public void RemoveFromInventory(params SkinPiece[] skin) {
+        foreach(SkinPiece s in skin) {
+            if (inventory.Contains(s)) {
+                inventory.Remove(s);
+            }
+        }
+    }
+
     public List<SkinPiece> GetInventory() {
         return inventory;
     }
@@ -56,6 +69,14 @@ public class PlayerInventory
         }
     }
 
+    public void UnequipPiece(SkinPiece piece) {
+        string skinType = piece.skinType.ToString();
+        if (!equippedClothes[skinType].Contains(piece)) return;
+        if (equippedMaxAmount[skinType] == 1) return;
+
+        equippedClothes[skinType].Remove(piece);
+    }
+
     public SkinPiece[] GetEquippedPiece(SkinPiece.SkinType skinType) {
         if (equippedClothes == null) return new SkinPiece[0];
         if (!equippedClothes.ContainsKey(skinType.ToString())) return new SkinPiece[0];
@@ -69,5 +90,22 @@ public class PlayerInventory
         }
         return attire.ToArray();
     }
+
+    public PlayerInventory Clone() {
+        PlayerInventory clone = new PlayerInventory();
+        clone.inventory = this.inventory.ToList();
+        clone.equippedMaxAmount = GameSettings.CloneDictionary(this.equippedMaxAmount);
+        clone.equippedClothes = GameSettings.CloneDictionary(this.equippedClothes);
+
+        List<string> keys = clone.equippedClothes.Keys.ToList();
+
+        foreach(string key in keys) {
+            clone.equippedClothes[key] = clone.equippedClothes[key].ToList();
+        }
+
+        return clone;
+
+    }
+
 
 }

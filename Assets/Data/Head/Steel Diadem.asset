@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Steel Diadem
   description: 
-  price: 0
+  price: 140
   renderOrder: 20
+  asSpriteMask: 0

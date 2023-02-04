@@ -26,7 +26,13 @@ public class InventorySlot : MonoBehaviour
     }
 
     public void Click() {
-        Player.Instance.EquipPiece(skinPiece);
+        if (!equipped) {
+            Player.Instance.EquipPiece(skinPiece);
+        }
+        else {
+            Player.Instance.UnequipPiece(skinPiece);
+        }
         parentUi.RefreshLayout(skinPiece.skinType);
+
     }
 }

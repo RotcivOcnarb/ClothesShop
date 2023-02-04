@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 4
   displayName: Plate Pants
   description: 
-  price: 0
+  price: 110
   renderOrder: 10
+  asSpriteMask: 0

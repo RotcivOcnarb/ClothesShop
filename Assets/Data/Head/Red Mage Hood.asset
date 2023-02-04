@@ -17,6 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Red Mage Hood
   description: 
-  price: 0
+  price: 150
   renderOrder: 20
   asSpriteMask: 1

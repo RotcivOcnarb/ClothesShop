@@ -12,6 +12,9 @@ using Rotslib.Editor;
 [CustomSettings("_Game Settings", new string[] { }, "GameSettings")]
 public class GameSettings : CustomSettingsObject {
 
+    [Header("General")]
+    public SkinPiece[] allSkins;
+
 #if UNITY_EDITOR
 
     [Header("Functions")]
@@ -172,6 +175,15 @@ public class GameSettings : CustomSettingsObject {
     }
 
 #endif
+
+    public static Dictionary<A, B> CloneDictionary<A, B>(Dictionary<A, B> original) {
+        Dictionary<A, B> clone = new Dictionary<A, B>();
+        foreach (A key in original.Keys) {
+            clone.Add(key, original[key]);
+        }
+        return clone;
+    }
+
 
     public static GameSettings GetDefaultSettings() {
         return GetDefaultSettings<GameSettings>();

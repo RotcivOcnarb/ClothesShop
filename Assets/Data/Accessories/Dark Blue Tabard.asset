@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Dark Blue Tabard
   description: 
-  price: 0
+  price: 80
   renderOrder: 30
+  asSpriteMask: 0

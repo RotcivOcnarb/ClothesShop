@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Breastplate
   description: 
-  price: 0
+  price: 230
   renderOrder: 20
+  asSpriteMask: 0

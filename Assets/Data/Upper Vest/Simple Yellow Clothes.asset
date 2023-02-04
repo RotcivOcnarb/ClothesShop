@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Simple Yellow Clothes
   description: 
-  price: 0
+  price: 75
   renderOrder: 20
+  asSpriteMask: 0

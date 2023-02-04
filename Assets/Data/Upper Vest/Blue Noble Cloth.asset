@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Blue Noble Cloth
   description: 
-  price: 0
+  price: 130
   renderOrder: 20
+  asSpriteMask: 0

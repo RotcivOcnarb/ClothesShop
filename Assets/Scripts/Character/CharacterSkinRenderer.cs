@@ -21,6 +21,10 @@ public class CharacterSkinRenderer : MonoBehaviour
         RefreshSkin();
     }
 
+    public SkinPiece[] GetSkin() {
+        return instancedSkins.Keys.ToArray();
+    }
+
     public void RefreshSkin() {
         for(int i = 0; i < transform.childCount; i++) {
             Destroy(transform.GetChild(i).gameObject);
@@ -33,6 +37,7 @@ public class CharacterSkinRenderer : MonoBehaviour
             GameObject skin = new GameObject(skins[i].name, typeof(SpriteRenderer), typeof(Animator));
             skin.transform.SetParent(transform);
             skin.transform.localPosition = Vector3.zero;
+            skin.layer = gameObject.layer;
 
             SpriteRenderer spriteRenderer = skin.GetComponent<SpriteRenderer>();
             spriteRenderer.sortingOrder = i + 1;
@@ -84,6 +89,24 @@ public class CharacterSkinRenderer : MonoBehaviour
         skins = pieces;
 
         RefreshSkin();
+    }
+
+    public void AddSkin(SkinPiece skin) {
+        List<SkinPiece> lst = skins.ToList();
+        if (!lst.Contains(skin)) {
+            lst.Add(skin);
+            skins = lst.ToArray();
+            RefreshSkin();
+        }
+    }
+
+    public void RemoveSkin(SkinPiece skin) {
+        List<SkinPiece> lst = skins.ToList();
+        if (lst.Contains(skin)) {
+            lst.Remove(skin);
+            skins = lst.ToArray();
+            RefreshSkin();
+        }
     }
 
 }

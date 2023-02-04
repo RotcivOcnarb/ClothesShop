@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Elven Simple Clothes
   description: 
-  price: 0
+  price: 60
   renderOrder: 20
+  asSpriteMask: 0

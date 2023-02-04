@@ -17,6 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Steel Helmet 2
   description: 
-  price: 0
+  price: 250
   renderOrder: 20
   asSpriteMask: 1

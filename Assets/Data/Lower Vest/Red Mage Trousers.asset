@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 4
   displayName: Red Mage Trousers
   description: 
-  price: 0
+  price: 120
   renderOrder: 10
+  asSpriteMask: 0

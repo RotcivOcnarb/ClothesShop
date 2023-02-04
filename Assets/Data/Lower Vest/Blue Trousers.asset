@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 4
   displayName: Blue Trousers
   description: 
-  price: 0
+  price: 60
   renderOrder: 10
+  asSpriteMask: 0

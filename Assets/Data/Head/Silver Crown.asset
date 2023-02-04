@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Silver Crown
   description: 
-  price: 0
+  price: 160
   renderOrder: 20
+  asSpriteMask: 0

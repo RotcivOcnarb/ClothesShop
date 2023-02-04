@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Green Cape
   description: 
-  price: 0
+  price: 180
   renderOrder: 30
+  asSpriteMask: 0

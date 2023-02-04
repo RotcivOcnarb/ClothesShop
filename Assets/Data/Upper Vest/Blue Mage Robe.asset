@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Blue Mage Robe
   description: 
-  price: 0
+  price: 180
   renderOrder: 20
+  asSpriteMask: 0

@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Back Bag
   description: 
-  price: 0
+  price: 120
   renderOrder: 30
+  asSpriteMask: 0

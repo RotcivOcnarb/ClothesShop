@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 4
   displayName: Green Mage Trousers
   description: 
-  price: 0
+  price: 80
   renderOrder: 10
+  asSpriteMask: 0

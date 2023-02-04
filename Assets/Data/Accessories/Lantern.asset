@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Lantern
   description: 
-  price: 0
+  price: 170
   renderOrder: 30
+  asSpriteMask: 0

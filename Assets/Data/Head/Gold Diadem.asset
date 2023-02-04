@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Gold Diadem
   description: 
-  price: 0
+  price: 210
   renderOrder: 20
+  asSpriteMask: 0

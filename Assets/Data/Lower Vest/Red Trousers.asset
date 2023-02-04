@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 4
   displayName: Red Trousers
   description: 
-  price: 0
+  price: 90
   renderOrder: 10
+  asSpriteMask: 0

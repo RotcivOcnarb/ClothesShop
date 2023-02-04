@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 2
   displayName: Platinum Diadem
   description: 
-  price: 0
+  price: 430
   renderOrder: 20
+  asSpriteMask: 0

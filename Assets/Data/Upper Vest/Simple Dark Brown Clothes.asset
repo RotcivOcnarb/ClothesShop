@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 3
   displayName: Simple Dark Brown Clothes
   description: 
-  price: 0
+  price: 80
   renderOrder: 20
+  asSpriteMask: 0

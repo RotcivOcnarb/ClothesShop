@@ -17,5 +17,6 @@ MonoBehaviour:
   skinType: 5
   displayName: Sheathed Sword
   description: 
-  price: 0
+  price: 160
   renderOrder: 30
+  asSpriteMask: 0
